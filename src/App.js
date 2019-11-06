@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navg from './Navg';
 import axios from 'axios';
-import Intro from './pages/Intro';
+// import Intro from './pages/Intro';
 
 
 

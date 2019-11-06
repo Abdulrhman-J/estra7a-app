@@ -38,7 +38,7 @@ Click on the link to see the app
 ​
 ​
 ## Wireframes
-* ![Wireframes](wireframe.png)
+![Wireframes](wireframe.png)
 ## User Story
 ​
 1. The user can access to all feature in the application.

@@ -1,0 +1,20 @@
+.soccerCountainer {
+
+    border: 2px solid rgb(80, 80, 143);
+    padding: 20px;
+    background-color: rgba(65, 139, 209, 0.2);
+    max-width: 70%; 
+    height: 100%;
+    margin: 0 auto;
+}
+
+.soccerPic {
+border: 1px dotted gray;
+}
+
+.soccerDet {
+    justify-content: space-around;
+    border: 1px solid darkblue;
+    padding: 2px;
+    background-color: antiquewhite;
+}

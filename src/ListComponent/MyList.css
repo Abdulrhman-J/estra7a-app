@@ -1,0 +1,26 @@
+/* I'll put the styling of the list */
+
+.countainerList {
+position: fixed;
+left: 500px;
+justify-content: space-around;
+border: 2px solid darkblue;
+padding: 20px;
+}
+
+.ulList {
+    list-style-type: none;
+    background-color: rgba(5, 5, 5, .2);
+    color: rgb(50, 136, 136);
+    width: 500px;
+}
+
+.addItemList {
+    
+}
+
+.buttons {
+    /* margin: 10px; */
+    display: flex;
+    justify-content: space-around;
+}

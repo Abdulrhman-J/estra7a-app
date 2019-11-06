@@ -1,26 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navg from './Navg';
+import axios from 'axios';
+import Intro from './pages/Intro';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      weather: ""
+
+    }
+  }
+
+
+  componentDidMount() {
+    axios({
+      method: 'GET',
+      url: 'http://api.openweathermap.org/data/2.5/weather?q=Riyadh&APPID=84966b399911fa6f30b114d1aea8c72c'
+    })
+      .then(res => {
+        console.log(res.data.main.temp);
+
+        const temp = res.data.main.temp - 273.15;
+        const weather = `${temp} C`
+        this.setState({
+          weather: weather,
+          temp: temp
+        })
+      })
+      .catch(err => {
+        console.log(err);
+
+      })
+  }
+
+  render() {
+    return (
+      <div >
+        <Navg weather={this.state.weather} temp={this.state.temp} />
+      </div>
+    );
+  }
 }
 
 export default App;
+
+

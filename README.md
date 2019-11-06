@@ -8,7 +8,7 @@
 * [Prerequisites](#prerequisites)
 * [Technologies](#technologies)
 * [User Story](#user-story)
-* [Components](#component)
+* [Components](#components)
 * [Resources](#resources)
 
 ## Why this Repo

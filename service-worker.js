@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/estra7a-app/precache-manifest.6e07d9d5e55af3ebe8a90e0dd1678b0b.js"
+  "/estra7a-app/precache-manifest.703ff5a48accceb105c18150a5b805a0.js"
 );
 
 self.addEventListener('message', (event) => {

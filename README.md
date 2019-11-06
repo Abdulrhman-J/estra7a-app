@@ -31,7 +31,7 @@ Click on the link to see the app
 
 ## Wireframes
 
-* 
+* ![The Wireframe](wireframe.png)
 
 ## Prerequisites
 

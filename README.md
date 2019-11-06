@@ -14,14 +14,13 @@
 ## Why this Repo
 ​
 This Project is a Simple ReactJS Project which demonstrates the following
-1. Creating a Component in React
+1. Create a React Component
 2. Making HTTP calls
-3. Communicating between parent and child component
-4. Using Bootstrap along with React
-5. Using Routing in React
+3. Connection between components and pass info
+4. Styling with Bootstrap
+5. Using Routing-React-Dom
 6. Using three api's (Weather, Location and Soccer of Premier League)
 ​
-The project Template can be used to build bigger projects easily
 ​
 ## Live Application URL
 ​

@@ -2,13 +2,14 @@
 ### Estera7h-app
 
 ## Table of Contents
-* [Why this Repo](#overview)
-* [Live Application URL](#Try my code in the link below)
+* [Why this Repo](#why-this-repo)
+* [Live Application URL](#live-application-url)
 * [Wireframes](#wireframes)
-* [Prerequisites](#Prerequisites)
-* [User Story](#User-Story)
-* [Components](#Component)
-* [Resources](#Resources)
+* [Prerequisites](#prerequisites)
+* [Technologies](#technologies)
+* [User Story](#user-story)
+* [Components](#component)
+* [Resources](#resources)
 
 ## Why this Repo
 
@@ -62,6 +63,14 @@ npm start
 
 Usually The Application Runs on **localhost:3000**
 
+## Technologies
+* React js
+* CLI
+* Postman
+* VS code
+* JSX
+
+
 ## User Story
 
 1. The user can access to all feature in the application.
@@ -70,12 +79,13 @@ Usually The Application Runs on **localhost:3000**
 4. The user can add items in a list and delete from it.
 
 ## Components
-1. in this section I make my code in many different component to handle everything's easily
+* in this section I make my code in many different component to handle everything's easily
 
 
 ### HTTP clint 
 
 **axios** library is used to make HTTP Calls
+**Bootstrab** library is used for CSS 
 
 ## Resources
 

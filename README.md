@@ -31,7 +31,7 @@ Click on the link to see the app
 
 ## Wireframes
 
-* ![Wireframes](wireframe.png)
+* ![Wireframes](./wireframe.png)
 
 ## Prerequisites
 

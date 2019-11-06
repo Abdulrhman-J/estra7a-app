@@ -1,68 +1,84 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Simple React JS Project 
+### Estera7h-app
 
-## Available Scripts
+## Table of Contents
+* [Why this Repo](#overview)
+* [Live Application URL](#Try my code in the link below)
+* [Wireframes](#wireframes)
+* [Prerequisites](#Prerequisites)
+* [User Story](#User-Story)
+* [Components](#Component)
+* [Resources](#Resources)
 
-In the project directory, you can run:
+## Why this Repo
 
-### `npm start`
+This Project is a Simple ReactJS Project which demonstrates the following
+1. Creating a Component in React
+2. Making HTTP calls
+3. Communicating between parent and child component
+4. Using Bootstrap along with React
+5. Using Routing in React
+6. Using three api's (Weather, Location and Soccer of Premier League)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The project Template can be used to build bigger projects easily
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Live Application URL
 
-### `npm test`
+### https://abdulrhman-j.github.io/estra7a-app/
+This URL has the application deployed in,
+Click on the link to see the app 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Wireframes
 
-### `npm run build`
+## Prerequisites
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Install Node JS
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+ https://nodejs.org/en/ to install nodejs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Install create-react-app
 
-### `npm run eject`
+Install create-react-app npm package globally. to run the project easily, install it by this command below 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+npm install -g create-react-app
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Cloning and Running the Application in local
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Clone the project into local
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In order to run the application on your computer Type the following command
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+Usually The Application Runs on **localhost:3000**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## User Story
 
-### Analyzing the Bundle Size
+1. The user can access to all feature in the application.
+2. The user can check the current wether and take note that advised him what shoude he do and ware. 
+3. The user can see the all Regular Seasonon Primum League by searching for his fevoriate team.
+4. The user can add items in a list and delete from it.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Components
+1. in this section I make my code in many different component to handle everything's easily
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### HTTP clint 
 
-### Advanced Configuration
+**axios** library is used to make HTTP Calls
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Resources
 
-### Deployment
+**ReactJS** : https://reactjs.org/ 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**React Bootstrap** : https://react-bootstrap.github.io/getting-started/introduction/

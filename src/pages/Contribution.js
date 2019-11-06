@@ -1,6 +1,8 @@
 import React from "react";
 
 const Contribution = props => {
+
+    // We will add form contain the information on contribution of the member of estera7h
     return (
         <div>
             <h1>قطة الشخص</h1>

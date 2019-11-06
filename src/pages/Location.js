@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// call the google map react
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 
 
@@ -6,6 +7,7 @@ import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 class Location extends Component {
     render() {
         return (
+            // 
             <Map google={window.google} initialCenter={{
                 lat: 24.6654176,
                 lng: 46.6789234

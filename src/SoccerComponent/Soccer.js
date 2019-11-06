@@ -6,6 +6,7 @@ import '../SoccerComponent/Soccer.css';
 class Soccer extends Component {
     constructor(props) {
         super(props);
+
         this.state = {
             all: [],
             team: 0
@@ -15,6 +16,7 @@ class Soccer extends Component {
 
 
 
+    // to make the user change the request team from the api
     changeTeam = (e) => {
         this.setState({
             team: e.target.value
@@ -26,6 +28,7 @@ class Soccer extends Component {
     getFixture = (team) => {
         axios({
             method: 'get',
+            // nased on the value on team vairable will print a spesific team as the id showen in the select tag below
             url: `https://api-football-v1.p.rapidapi.com/v2/fixtures/team/${team}/524`,
             headers: {
                 "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
@@ -37,7 +40,7 @@ class Soccer extends Component {
                     return (
 
                         <div>
-
+                            {/* only call the information from the api */}
                             <div className='soccerCountainer'>
                                 رقم الجولة
                                 <p className='soccerDet'>{fixture.round}</p>
@@ -89,6 +92,7 @@ class Soccer extends Component {
                 {/* <h3> أختر فريقك </h3> */}
                 <select onChange={this.changeTeam} value={this.state.team}>
                     <option value="" selected > اختر فريقك</option>
+                    {/* based on the value number will print the team details */}
                     <option value="49">تشلسي</option>
                     <option value="33">مانشستر يونايتد</option>
                     <option value="40">ليفربول</option>

@@ -5,7 +5,7 @@ const Weather = props => {
 
 
 
-
+    // depend on the wether from the api's weather do this function and display it in this page
     const planeBasedOnWeather = (temp) => {
         if (props.t == 25) {
             return ('الجو معتدل نوعا ما')

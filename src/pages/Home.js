@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from 'react'
 const Home = props => {
 
+    // to use state while the component is function
     const [hide, setHide] = useState(true)
     const [name, setName] = useState("")
     const [des, setDes] = useState("")
@@ -14,6 +15,9 @@ const Home = props => {
         <div>
             <h1> Heellllooo</h1>
 
+            {/* if the hide true show me the form to fill it, else print the information
+            this will happen when u clcick on the button 
+            */}
             {hide == false ? <>
                 <label>أسمك :</label> <h1>{name}</h1>
                 <label>وصفك :</label>  <h1>{des}</h1>

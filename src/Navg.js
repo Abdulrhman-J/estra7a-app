@@ -5,7 +5,7 @@ import Location from './pages/Location';
 import NeedsList from './pages/NeedsList';
 import Weather from './WetherComponent/Weather';
 import Soccer from './SoccerComponent/Soccer';
-// import Wether from './WetherComponent/Wether';
+// call the router react dom  ,,, by terminal to list it on the json file
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 class Navg extends React.Component {
@@ -19,7 +19,7 @@ class Navg extends React.Component {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav mr-auto">
                                 <li className="nav-item active">
-                                    <Link className="navbar-brand bg-light" to="/wether">{this.props.weather}</Link>
+                                    <Link className="navbar-brand bg-light" to="/weather">{this.props.weather}</Link>
                                 </li>
                                 <li className="nav-item active">
                                     <Link className="nav-link" to="/">الرئيسية</Link>
@@ -48,7 +48,7 @@ class Navg extends React.Component {
                     </nav>
                     <div className="App">
                         <Route exact path='/' component={Home} />
-                        <Route path='/wether' render={() => <Weather w={this.props.weather} t={this.props.temp} />} />
+                        <Route path='/weather' render={() => <Weather w={this.props.weather} t={this.props.temp} />} />
                         <Route path='/contribution' component={Contribution} />
                         <Route path='/needslist' component={NeedsList} />
                         <Route path='/location' component={Location} />

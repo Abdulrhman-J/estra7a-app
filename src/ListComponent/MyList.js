@@ -21,6 +21,7 @@ class MyList extends Component {
         });
     };
 
+    // to write in the textboxe fro new Item
     onTextBoxChange = e => {
         console.log("on text change ", e.target.value);
         // to update the newItem to what you wrote
@@ -28,7 +29,7 @@ class MyList extends Component {
             newItem: e.target.value
         });
     };
-
+    //  in case for remove an item
     removeOneItem = (item) => {
         const list = [...this.state.toDoItems]
         const index = list.indexOf(item)
@@ -39,6 +40,7 @@ class MyList extends Component {
         })
     };
 
+    // to add new item to the exsis arr
     addItem = e => {
         this.setState({
             toDoItems: [...this.state.toDoItems, this.state.newItem],
@@ -53,6 +55,7 @@ class MyList extends Component {
             <div className='countainerList'>
                 <h1>احتياجات الاستراحة</h1>
                 <br />
+                {/* to pass the function and arr of items */}
                 <ToDoList removeOneItem={this.removeOneItem} toDoItems={this.state.toDoItems} />
                 <input
                     type='text'

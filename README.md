@@ -31,13 +31,14 @@ Click on the link to see the app
 
 ## Wireframes
 
+* 
+
 ## Prerequisites
 
-### Install Node JS
-
+* Install Node JS
  https://nodejs.org/en/ to install nodejs
 
-### Install create-react-app
+* Install create-react-app
 
 Install create-react-app npm package globally. to run the project easily, install it by this command below 
 
@@ -45,7 +46,7 @@ Install create-react-app npm package globally. to run the project easily, instal
 npm install -g create-react-app
 ```
 
-### Cloning and Running the Application in local
+* Cloning and Running the Application in local
 
 Clone the project into local
 
@@ -82,7 +83,7 @@ Usually The Application Runs on **localhost:3000**
 * in this section I make my code in many different component to handle everything's easily
 
 
-### HTTP clint 
+* HTTP clint 
 
 **axios** library is used to make HTTP Calls
 **Bootstrab** library is used for CSS 

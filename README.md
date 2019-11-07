@@ -9,6 +9,7 @@
 * [User Story](#user-story)
 * [Components](#components)
 * [Prerequisites](#prerequisites)
+* [Road map](#road-map)
 * [Resources](#resources)
 ​
 ## Why this Repo
@@ -84,6 +85,13 @@ npm start
 ```
 ​
 Usually The Application Runs on **localhost:3000**
+
+## Road map
+
+1. I'm looking to make my pages in on single page divided by components
+2. I will add "Balot calculater" with show history of teams and result
+3. Make the feature of weather more functional and more details
+3. Add news section
 ​
 ## Resources
 ​
